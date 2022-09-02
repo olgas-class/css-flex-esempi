@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: palevioletred;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1em;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+ul.menu-items {
+    display: flex;
+    /* width: 50%;
+    justify-content: space-between; */
+}
+
+ul.menu-items li {
+    margin-left: 1em;
+}
